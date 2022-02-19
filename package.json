@@ -9,7 +9,7 @@
     "build:dev": "webpack --config webpack.config.js",
     "start": "webpack-dev-server --open --port=8080"
   },
-  "author": "Fernando Herrera",
+  "author": "Fernando Martínez",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -32,5 +32,8 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "firebase": "^9.6.7"
   }
 }
